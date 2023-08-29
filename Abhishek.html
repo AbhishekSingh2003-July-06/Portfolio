@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/854fe4539a.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="name.jpg" class="logo">
+            <ul id="sidemenu">
+                
+                   <li><a href="#header">Home</a></li> 
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li> <a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p id="text">Web Developer</p>
+            <h1>Hi, I'm <span>Abhishek</span> Kumar<br>Singh from Shahjahanpur</h1>
+        </div>
+    </div>
+</div>
+<!-- -------------------About------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="bg.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Myself Abhishek Kumar Singh. I am from District Shahjahanpur.
+                    And I am currently pursuing my Bachelor of Technology from Dr. K.N Modi Institute of Engineering and Technology.
+                    I am a final year student. 
+                
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br> Web app Development </li>
+                        <li><span>App Development</span><br> Building App/iOS Development </li>
+                        <li><span>Data Analyst</span><br> Analyzing and cleaning the data.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-current</span><br> Web app Development from internshala and leaning MERN stack Development </li>
+                        <li><span>2022-2023</span><br>Learning new skills like Python SQL and Tableau </li>
+                        <li><span>2022-2023</span><br>Training on AI Associate Engineer By ICT Academy</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education"> 
+                    <ul>
+                        <li><span>2020-2024</span><br>Bachelor of Technology<br>SGPA:7.5</li>
+                        <li><span>2019-2020</span><br>Intermediate<br>Percantage:83%</span></li>
+                        <li><span>2017-2018</span><br>HighSchool<br>Percantage:76%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------------services ---------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web-Design</h2>
+                <p>In Web design i have a good knowledge about HTML,CSS and Javascript and now currently i am Learning the MERN Stack.
+                    And my projects on web-design are own portfolio website and calculator.
+                </p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data-Analyst</h2>
+                <p>In Data Analysing i learned so many things and gain my knowledge and skills which help to build up my career.And the project of data Analysing is 
+                    Analysing Death Age Difference  Of Right Handers with Left Handers it done with the MedTourEasy.
+                </p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App-Development</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Et quis tempore nam eius vero, recusandae magnam accusantium 
+                     vel fugiat facere.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- -------------------------------portfolio------------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="web devlopment.jpg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>The website gives the desciption about myself.
+                        Check the portfolio website by clicking on the link.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="AI.png">
+                <div class="layer">
+                    <h3>Translator </h3>
+                    <p>The Technology provides the knowledge Artificial intelligence and how it works.
+                        In this project our mentors help us to build the project and also references taken by microsoft azure.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="dataAnalyst.jpg">
+                <div class="layer">
+                    <h3>Analysing Death Age Difference  Of
+                        Right Handers with Left Handers</h3>
+                    <p>In this project there are many skills which are helpful for growing my 
+                        Career and give a new experience to work with data.</p>
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------------contact-------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>as682860@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7518636406</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/abhishek6151singh?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Abhishe28640130?s=08"target="_blank"><i class="fa-brands fa-twitter-square" ></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-kumar-singh-342573212" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume_Resume_Format1 (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Abhishek. Made with <i class="fa-solid fa-heart"></i> by Own</p>
+    </div>
+</div>
+<script>
+
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          
+    }
+    for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
